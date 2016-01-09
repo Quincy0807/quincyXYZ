@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
@@ -44,4 +43,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
+gem 'refinerycms'
+gem 'refinerycms-blog', git: 'https://github.com/refinery/refinerycms-blog', branch: 'master'
+gem 'mysql2'
+gem "refinerycms-page-images", github: "refinery/refinerycms-page-images", branch: "master"
+gem 'sprockets-rails', '~> 2.3.3'
+gem 'refinerycms-authentication-devise', '~> 1.0.2'
